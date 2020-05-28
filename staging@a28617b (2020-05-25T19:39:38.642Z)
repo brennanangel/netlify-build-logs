@@ -1,0 +1,78 @@
+12:42:24 PM: Build ready to start
+12:42:26 PM: build-image version: 30f629161c0736b1a3ecd8b418e5eeffab5c0faf
+12:42:26 PM: build-image tag: v3.3.14
+12:42:26 PM: buildbot version: 80440c4491d323247b9d55f7bea2ea6bc96ce8d2
+12:42:26 PM: Fetching cached dependencies
+12:42:26 PM: Starting to download cache of 2.9GB
+12:42:39 PM: Finished downloading cache in 13.540805082s
+12:42:39 PM: Starting to extract cache
+12:43:20 PM: Finished extracting cache in 41.076733742s
+12:43:21 PM: Finished fetching cache in 55.213165881s
+12:43:21 PM: Starting to prepare the repo for build
+12:43:22 PM: Preparing Git Reference refs/heads/staging
+12:43:27 PM: Found Netlify configuration file netlify.toml in site root
+12:43:27 PM: Found Netlify configuration file(s). Overriding site configuration
+12:43:27 PM: Different build command detected, going to use the one specified in the Netlify configuration file: 'hugo --gc --minify --enableGitInfo --baseURL $URL --environment development' versus 'hugo --gc --minify' in the Netlify UI
+12:43:27 PM: Starting build script
+12:43:27 PM: Installing dependencies
+12:43:27 PM: Started restoring cached node version
+12:43:30 PM: Finished restoring cached node version
+12:43:31 PM: v10.20.1 is already installed.
+12:43:32 PM: Now using node v10.20.1 (npm v6.14.4)
+12:43:32 PM: Started restoring cached build plugins
+12:43:32 PM: Finished restoring cached build plugins
+12:43:32 PM: Attempting ruby version 2.6.2, read from environment
+12:43:33 PM: Using ruby version 2.6.2
+12:43:34 PM: Using PHP version 5.6
+12:43:34 PM: 5.2 is already installed.
+12:43:34 PM: Using Swift version 5.2
+12:43:34 PM: Started restoring cached node modules
+12:43:34 PM: Finished restoring cached node modules
+12:43:34 PM: Installing Hugo 0.71.1
+12:43:34 PM: Hugo Static Site Generator v0.71.1-A301F6B2/extended linux/amd64 BuildDate: 2020-05-25T09:18:12Z
+12:43:34 PM: Started restoring cached go cache
+12:43:34 PM: Finished restoring cached go cache
+12:43:34 PM: go version go1.12 linux/amd64
+12:43:34 PM: go version go1.12 linux/amd64
+12:43:34 PM: Installing missing commands
+12:43:34 PM: Verify run directory
+12:43:34 PM: Executing user command: hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+12:43:35 PM: Building sites …
+12:45:39 PM:                    |  EN
+12:45:39 PM: -------------------+
+12:45:39 PM: -------
+12:45:39 PM:   Pages            |  347
+12:45:39 PM:   Paginator pages  |   13
+12:45:39 PM:   Non-page files   |    1
+12:45:39 PM:   Static files     | 8336
+12:45:39 PM:   Processed images |    0
+12:45:39 PM:   Aliases          |   17
+12:45:39 PM:   Sitemaps         |    1
+12:45:39 PM:   Cleaned          |    0
+12:45:39 PM: Total in 124892 ms
+12:45:39 PM: Skipping functions preparation step: no functions directory set
+12:45:39 PM: Caching artifacts
+12:45:39 PM: Started saving node modules
+12:45:39 PM: Finished saving node modules
+12:45:39 PM: Started saving build plugins
+12:45:39 PM: Finished saving build plugins
+12:45:39 PM: Started saving pip cache
+12:45:48 PM: Finished saving pip cache
+12:45:48 PM: Started saving emacs cask dependencies
+12:45:48 PM: Finished saving emacs cask dependencies
+12:45:48 PM: Started saving maven dependencies
+12:45:48 PM: Finished saving maven dependencies
+12:45:48 PM: Started saving boot dependencies
+12:45:48 PM: Finished saving boot dependencies
+12:45:48 PM: Started saving go dependencies
+12:45:48 PM: Finished saving go dependencies
+12:45:48 PM: Build script success
+12:45:48 PM: Starting to deploy site from 'public'
+12:45:49 PM: Creating deploy tree asynchronously
+12:45:50 PM: Creating deploy upload records
+12:45:54 PM: 1 new files to upload
+12:45:54 PM: 0 new functions to upload
+12:45:59 PM: Starting post processing
+12:46:06 PM: Post processing done
+12:46:06 PM: Site is live
+12:50:11 PM: Finished processing build request in 7m45.211963453s
