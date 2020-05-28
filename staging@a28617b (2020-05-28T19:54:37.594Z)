@@ -1,0 +1,122 @@
+12:54:37 PM: Build ready to start
+12:54:39 PM: build-image version: 30f629161c0736b1a3ecd8b418e5eeffab5c0faf
+12:54:39 PM: build-image tag: v3.3.14
+12:54:39 PM: buildbot version: 1da4cf38e1ad1fe9ce7deeeba939bcc9c6c3f794
+12:54:40 PM: Fetching cached dependencies
+12:54:40 PM: Starting to download cache of 2.9GB
+12:55:38 PM: Finished downloading cache in 58.347971398s
+12:55:38 PM: Starting to extract cache
+12:56:15 PM: Finished extracting cache in 36.617607057s
+12:56:15 PM: Finished fetching cache in 1m35.699892448s
+12:56:15 PM: Starting to prepare the repo for build
+12:56:16 PM: Preparing Git Reference refs/heads/staging
+12:56:21 PM: Different build command detected, going to use the one specified in the Netlify configuration file: 'hugo --gc --minify --enableGitInfo --baseURL $URL --environment development' versus 'hugo --gc --minify' in the Netlify UI
+12:56:21 PM: Starting build script
+12:56:21 PM: Installing dependencies
+12:56:22 PM: Started restoring cached node version
+12:56:25 PM: Finished restoring cached node version
+12:56:26 PM: v10.20.1 is already installed.
+12:56:26 PM: Now using node v10.20.1 (npm v6.14.4)
+12:56:26 PM: Started restoring cached build plugins
+12:56:26 PM: Finished restoring cached build plugins
+12:56:26 PM: Attempting ruby version 2.6.2, read from environment
+12:56:28 PM: Using ruby version 2.6.2
+12:56:28 PM: Using PHP version 5.6
+12:56:28 PM: 5.2 is already installed.
+12:56:28 PM: Using Swift version 5.2
+12:56:28 PM: Started restoring cached node modules
+12:56:28 PM: Finished restoring cached node modules
+12:56:29 PM: Installing Hugo 0.71.1
+12:56:29 PM: Hugo Static Site Generator v0.71.1-A301F6B2/extended linux/amd64 BuildDate: 2020-05-25T09:18:12Z
+12:56:29 PM: Started restoring cached go cache
+12:56:29 PM: Finished restoring cached go cache
+12:56:29 PM: go version go1.12 linux/amd64
+12:56:29 PM: go version go1.12 linux/amd64
+12:56:29 PM: Installing missing commands
+12:56:29 PM: Verify run directory
+12:56:31 PM: ​
+12:56:31 PM: ┌─────────────────────────────┐
+12:56:31 PM: │        Netlify Build        │
+12:56:31 PM: └─────────────────────────────┘
+12:56:31 PM: ​
+12:56:31 PM: ❯ Version
+12:56:31 PM:   @netlify/build 1.0.10
+12:56:31 PM: ​
+12:56:31 PM: ❯ Flags
+12:56:31 PM:   mode: buildbot
+12:56:31 PM: ​
+12:56:31 PM: ❯ Current directory
+12:56:31 PM:   /opt/build/repo
+12:56:31 PM: ​
+12:56:31 PM: ❯ Config file
+12:56:31 PM:   /opt/build/repo/netlify.toml
+12:56:31 PM: ​
+12:56:31 PM: ❯ Context
+12:56:31 PM:   production
+12:56:31 PM: ​
+12:56:31 PM: ┌────────────────────────────────────┐
+12:56:31 PM: │ 1. build.command from netlify.toml │
+12:56:31 PM: └────────────────────────────────────┘
+12:56:31 PM: ​
+12:56:31 PM: $ hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+12:56:31 PM: Building sites …
+12:58:32 PM:                   |
+12:58:32 PM:   EN
+12:58:32 PM: -
+12:58:32 PM: ------------------+
+12:58:32 PM: -------
+12:58:32 PM: Pages
+12:58:32 PM: |
+12:58:32 PM:  347
+12:58:32 PM: Paginator pages
+12:58:32 PM: |
+12:58:32 PM:   13
+12:58:32 PM: Non-page files
+12:58:32 PM: |
+12:58:32 PM:    1
+12:58:32 PM: Static files
+12:58:32 PM: |
+12:58:32 PM: 8357
+12:58:32 PM: Processed images
+12:58:32 PM: |
+12:58:32 PM:    0
+12:58:32 PM: Aliases
+12:58:32 PM: |
+12:58:32 PM:   17
+12:58:32 PM:   Sitemaps         |
+12:58:32 PM:    1
+12:58:32 PM:   Cleaned          |    0
+12:58:32 PM: Total in 120968 ms
+12:58:32 PM: ​
+12:58:32 PM: (build.command completed in 2m 1.2s)
+12:58:32 PM: ​
+12:58:32 PM: ┌─────────────────────────────┐
+12:58:32 PM: │   Netlify Build Complete    │
+12:58:32 PM: └─────────────────────────────┘
+12:58:32 PM: ​
+12:58:32 PM: (Netlify Build completed in 2m 1.3s)
+12:58:33 PM: Caching artifacts
+12:58:33 PM: Started saving node modules
+12:58:33 PM: Finished saving node modules
+12:58:33 PM: Started saving build plugins
+12:58:33 PM: Finished saving build plugins
+12:58:33 PM: Started saving pip cache
+12:58:33 PM: Finished saving pip cache
+12:58:33 PM: Started saving emacs cask dependencies
+12:58:33 PM: Finished saving emacs cask dependencies
+12:58:33 PM: Started saving maven dependencies
+12:58:33 PM: Finished saving maven dependencies
+12:58:33 PM: Started saving boot dependencies
+12:58:34 PM: Finished saving boot dependencies
+12:58:34 PM: Started saving go dependencies
+12:58:34 PM: Finished saving go dependencies
+12:58:34 PM: Build script success
+12:58:34 PM: Starting to deploy site from 'public'
+12:58:35 PM: Creating deploy tree asynchronously
+12:58:35 PM: Creating deploy upload records
+12:58:41 PM: Starting post processing
+12:58:46 PM: Post processing done
+12:58:47 PM: Site is live
+12:58:48 PM: 0 new files to upload
+12:58:48 PM: 0 new functions to upload
+1:02:42 PM: Finished processing build request in 8m2.777269358s
