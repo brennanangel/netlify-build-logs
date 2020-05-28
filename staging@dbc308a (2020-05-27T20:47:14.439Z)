@@ -1,0 +1,108 @@
+1:47:14 PM: Build ready to start
+1:47:17 PM: build-image version: 30f629161c0736b1a3ecd8b418e5eeffab5c0faf
+1:47:17 PM: build-image tag: v3.3.14
+1:47:17 PM: buildbot version: c980c7a2b0cdc16927ea1bb1814a6a694d503101
+1:47:17 PM: Fetching cached dependencies
+1:47:17 PM: Starting to download cache of 2.9GB
+1:47:44 PM: Finished downloading cache in 27.382966304s
+1:47:44 PM: Starting to extract cache
+1:48:24 PM: Finished extracting cache in 39.407260437s
+1:48:24 PM: Finished fetching cache in 1m7.185572063s
+1:48:24 PM: Starting to prepare the repo for build
+1:48:25 PM: Preparing Git Reference refs/heads/staging
+1:48:33 PM: Different build command detected, going to use the one specified in the Netlify configuration file: 'hugo --gc --minify --enableGitInfo --baseURL $URL --environment development' versus 'hugo --gc --minify' in the Netlify UI
+1:48:33 PM: Starting build script
+1:48:33 PM: Installing dependencies
+1:48:35 PM: Started restoring cached node version
+1:48:38 PM: Finished restoring cached node version
+1:48:38 PM: v10.20.1 is already installed.
+1:48:39 PM: Now using node v10.20.1 (npm v6.14.4)
+1:48:39 PM: Started restoring cached build plugins
+1:48:39 PM: Finished restoring cached build plugins
+1:48:39 PM: Attempting ruby version 2.6.2, read from environment
+1:48:40 PM: Using ruby version 2.6.2
+1:48:41 PM: Using PHP version 5.6
+1:48:41 PM: 5.2 is already installed.
+1:48:41 PM: Using Swift version 5.2
+1:48:41 PM: Started restoring cached node modules
+1:48:41 PM: Finished restoring cached node modules
+1:48:41 PM: Installing Hugo 0.71.1
+1:48:42 PM: Hugo Static Site Generator v0.71.1-A301F6B2/extended linux/amd64 BuildDate: 2020-05-25T09:18:12Z
+1:48:42 PM: Started restoring cached go cache
+1:48:42 PM: Finished restoring cached go cache
+1:48:42 PM: go version go1.12 linux/amd64
+1:48:42 PM: go version go1.12 linux/amd64
+1:48:42 PM: Installing missing commands
+1:48:42 PM: Verify run directory
+1:48:44 PM: ​
+1:48:44 PM: ┌─────────────────────────────┐
+1:48:44 PM: │        Netlify Build        │
+1:48:44 PM: └─────────────────────────────┘
+1:48:44 PM: ​
+1:48:44 PM: ❯ Version
+1:48:44 PM:   @netlify/build 1.0.8
+1:48:44 PM: ​
+1:48:44 PM: ❯ Flags
+1:48:44 PM:   mode: buildbot
+1:48:44 PM: ​
+1:48:44 PM: ❯ Current directory
+1:48:44 PM:   /opt/build/repo
+1:48:44 PM: ​
+1:48:44 PM: ❯ Config file
+1:48:44 PM:   /opt/build/repo/netlify.toml
+1:48:44 PM: ​
+1:48:44 PM: ❯ Context
+1:48:44 PM:   production
+1:48:44 PM: ​
+1:48:44 PM: ┌────────────────────────────────────┐
+1:48:44 PM: │ 1. build.command from netlify.toml │
+1:48:44 PM: └────────────────────────────────────┘
+1:48:44 PM: ​
+1:48:44 PM: $ hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+1:48:44 PM: DEBUG target={ platform: 'linux', arch: 'x64' }, hugo={ version: '0.71.1' }
+1:48:44 PM: DEBUG searching executable at </opt/build/repo/node_modules/hugo-cli/tmp/hugo_0.71.1_linux_amd64>
+1:48:44 PM: INFO hugo not found. Attempting to fetch it...
+1:48:44 PM: DEBUG downloading archive from <https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_0.71.1_Linux-64bit.tar.gz>
+1:48:45 PM: INFO fetched hugo 0.71.1
+1:48:45 PM: INFO extracting archive...
+1:48:46 PM: DEBUG extracted archive to </opt/build/repo/node_modules/hugo-cli/tmp>
+1:48:46 PM: INFO hugo available, let's go!
+1:48:46 PM: Building sites …
+1:50:29 PM: ERROR 2020/05/27 20:50:29 TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_df0fcb6fcf7ac0465cc4f11d40f9fe96" not found in file cache
+1:50:29 PM: Total in 103069 ms
+1:50:29 PM: Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_e59e0ecc24dedce3dd5dba3ad899859c" not found in file cache
+1:50:29 PM: ​
+1:50:29 PM: ┌─────────────────────────────┐
+1:50:29 PM: │   "build.command" failed    │
+1:50:29 PM: └─────────────────────────────┘
+1:50:29 PM: ​
+1:50:29 PM:   Error message
+1:50:29 PM:   Command failed with exit code 255: hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+1:50:29 PM: ​
+1:50:29 PM:   Error location
+1:50:29 PM:   In build.command from netlify.toml:
+1:50:29 PM:   hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+1:50:29 PM: ​
+1:50:29 PM:   Resolved config
+1:50:29 PM:   build:
+1:50:29 PM:     command: hugo --gc --minify --enableGitInfo --baseURL $URL --environment development
+1:50:29 PM:     publish: /opt/build/repo/public
+1:50:29 PM: Caching artifacts
+1:50:29 PM: Started saving node modules
+1:50:29 PM: Finished saving node modules
+1:50:29 PM: Started saving build plugins
+1:50:29 PM: Finished saving build plugins
+1:50:29 PM: Started saving pip cache
+1:50:30 PM: Finished saving pip cache
+1:50:30 PM: Started saving emacs cask dependencies
+1:50:30 PM: Finished saving emacs cask dependencies
+1:50:30 PM: Started saving maven dependencies
+1:50:30 PM: Finished saving maven dependencies
+1:50:30 PM: Started saving boot dependencies
+1:50:30 PM: Finished saving boot dependencies
+1:50:30 PM: Started saving go dependencies
+1:50:31 PM: Finished saving go dependencies
+1:50:31 PM: Error running command: Build script returned non-zero exit code: 1
+1:50:31 PM: Failing build: Failed to build site
+1:50:31 PM: Failed during stage 'building site': Build script returned non-zero exit code: 1
+1:50:31 PM: Finished processing build request in 3m13.759687181s
